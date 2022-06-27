@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+        
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    align-items: center;
+}
+header .left img
+{
+    width:103px;
+}
+.right
+{
+    /* margin-top:20px; */
+    margin-right: 25px;;
+}
+header .right a
+{
+    margin-right:100px;
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+.right a:hover
+{
+    border-bottom: 2px solid yellow;
+    padding-bottom: 8px;
+    color:rgb(255, 234, 0);
+    /* font-size: larger; */
+    
+    /* font-weight: bold; */
+
+}
+
+
+/* main */
+
+body
+{
+    background-color: black;;
+}
+main
+{
+    padding:100px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.716);
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.lef
+{
+    width:50%;
+}
+.rig
+{
+    width:50%;
+    /* border:2px solid red; */
+    margin-left: 150px;;
+}
+.rig h1
+{
+    /* padding-left: 25%; */
+    /* color:black; */
+    font-size: 50px;
+    /* margin-top: 30px; */
+    display: inline-block;
+    text-align: center;
+    /* padding-left: 7.5%; */
+    border-top: 4px solid yellow;
+    padding-top: 7px;
+    padding-bottom: 4px;
+}
+.rig h3
+{
+    font-weight: normal;
+}
+.rig .para p 
+{
+    margin-top:20px;
+    margin-right: 50px;
+    font-size: large;
+}
+.rig img 
+{
+   margin-top: 50px;;
+   width:300px;
+   height: 100px;;
+}
+.bottom
+{
+    width:75%;
+    margin:auto;
+}
+
+
+
+
+/* footer */
